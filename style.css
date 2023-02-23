@@ -44,6 +44,7 @@ iframe {
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 1;
 	background-color: #e3f3ff;
 	border-bottom: 1px solid #bbb;
 }
@@ -702,6 +703,11 @@ h4 {
 	color: #bbb;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+.drinking {
+	width: 22%;
+	height: auto;
 }
 
 .container2 {
