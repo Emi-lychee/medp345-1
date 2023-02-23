@@ -4,6 +4,7 @@ body {
 }
 
 h1 {
+	text-align: center;
 	font-size: 40px;
 	margin-bottom: 10px;
 }
@@ -14,6 +15,31 @@ a {
 }
 
 #screen {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 69%;
+	padding-top: 35%;
+	border: 35px solid black;
+	border-radius: 15px;
+	background-color: #e3f3ff;
+	overflow: hidden;
+}
+
+/*#screen {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-top: 69.23%;
+	border: 35px solid black;
+	border-radius: 15px;
+	background-color: #e3f3ff;
+	overflow: hidden;
+}
+*/
+/*#screen {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -24,11 +50,21 @@ a {
 	background-color: #e3f3ff;
 	overflow: hidden;
 }
-
+*/
 iframe {
 	width: 715px;
 	height: 495px;
 	border: none;
+}
+
+.responsive {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .background1 {
@@ -44,6 +80,7 @@ iframe {
 	top: 0;
 	left: 0;
 	width: 100%;
+	padding-bottom: 50px;
 	z-index: 1;
 	background-color: #e3f3ff;
 	border-bottom: 1px solid #bbb;
@@ -66,6 +103,7 @@ h2 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	padding-top: 70px;
 }
 
 .box-options {
@@ -127,6 +165,8 @@ ul {
 	margin: 0;
 	left: 0;
 	padding: 0;
+	padding-top: 25px;
+	padding-bottom: 15px;
 	overflow: hidden;
 }
 
@@ -155,6 +195,7 @@ li a:hover {
 	flex-flow: column;
 	align-items: center;
 	grid-row-gap: 10px;
+	padding-top: 45px;
 }
 
 .box-options1 {
@@ -706,7 +747,7 @@ h4 {
 }
 
 .drinking {
-	width: 22%;
+	width: 17%;
 	height: auto;
 }
 
@@ -721,6 +762,7 @@ h4 {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto;
 	grid-row-gap: 1%;
+	padding-top: 45px;
 }
 
 .box-options2 {
@@ -737,4 +779,72 @@ footer {
 	bottom: 0;
 	width: 100%;
 	font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		text-align: center;
+		font-size:23px;
+	}
+
+	#screen {
+		padding-top: 60%;
+		border: 20px solid black;
+	}
+
+	.background {
+		padding-bottom: 0px;
+	}
+
+	h2 {
+		font-size: 15px;
+	}
+
+	.container {
+		padding-top: 0px;
+	}
+
+	h3 {
+		font-size: 10px;
+	}
+
+	p {
+		font-size: 9px;
+	}
+
+	ul {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	li {
+		width: 18%;
+		font-size: 12px;
+	}
+
+	li a {
+		padding: 7px 0.5px;
+	}
+
+	.container1 {
+		padding-top: 0px;
+	}
+
+	.tooltip .tooltiptext {
+		width: 50px;
+		margin-left: -25px;
+		font-size: 9px;
+	}
+
+	h4 {
+		font-size: 12px;
+	}
+
+	.note {
+		font-size: 7px;
+	}
+
+	.container3 {
+		padding-top: 0px;
+	}
 }
