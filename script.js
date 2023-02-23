@@ -136,7 +136,7 @@ span7.onclick = function() {
 var modal8 = document.getElementById("myModal8");
 
 var img8 = document.getElementById("myImg8");
-var modalImg3 = document.getElementById("img08");
+var modalImg8 = document.getElementById("img08");
 var captionText8 = document.getElementById("caption8");
 img8.onclick = function(){
 	modal8.style.display = "block";
