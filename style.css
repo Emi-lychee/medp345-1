@@ -131,7 +131,8 @@ ul {
 
 li {
 	display: inline-block;
-	width: 19.2%;
+	width: 19.1%;
+	font-size: 21px;
 }
 
 li a {
@@ -161,6 +162,30 @@ li a:hover {
 	padding-right: 10px;
 	border: 1px solid black;
 	background-color: #ffe3ff;
+}
+
+h4 {
+	font-size: 19px;
+	line-height: 0.3px;
+}
+
+.note {
+	font-size: 15px;
+	font-style: italic;
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	grid-row-gap: 1%;
+}
+
+.box-options2 {
+}
+
+.gallery {
+	width: 90%;
+	height: auto;
 }
 
 footer {
